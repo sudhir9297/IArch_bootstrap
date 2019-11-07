@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>iArch</title>
+    <meta charset="UTF-8" />
+      
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
+      
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0 , shrink-to-fit=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link href="css/index.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!--Header : section 1-->
+    <section class="nav-bar" id="nav_bar">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+          <a class="navbar-brand " href="#">iArch</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fa fa-bars" aria-hidden="true"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about_us">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </section>
+
+    <!--slider-->
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-ride="carousel"
+    >
+      <ol class="carousel-indicators">
+        <li
+          data-target="#carouselExampleIndicators"
+          data-slide-to="0"
+          class="active"
+        ></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active" >
+          <div class="image-container">
+              <img src="img/1.jpg" class="d-block w-100 " alt="..." />
+              <div class="after"></div>
+          </div>
+
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Home Decoration</h5>
+            <p>The Best Home Decoration Store</p>
+
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="image-container">
+              <img src="img/2.jpg" class="d-block w-100 " alt="..." />
+              <div class="after"></div>
+          </div>
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Classic Design</h5>
+            <p>
+              An architect should strive to fulfill each of the priciples that a
+              building simply
+            </p>
+
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="image-container">
+              <img src="img/3.jpg" class="d-block w-100 " alt="..." />
+              <div class="after"></div>
+          </div>
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Secure Home</h5>
+            <p>
+              An architect should strive to fulfill each of the priciples that a
+              building simply
+            </p>
+
+          </div>
+        </div>
+      </div>
+      <a
+        class="carousel-control-prev"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+    <!---second section---->
+    <section id="banner">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-6">
+            <div class="promo-title">
+              <h4>
+                We make creative interior & architecture
+              </h4>
+
+              <p>
+                Architecture has to do with planning and designing form, space
+                and ambience to reflect functional, technical, social,
+                environmental, and aesthetic considerations. Business
+                architecture is defined as "a blueprint of the enterprise that
+                provides an understanding".
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 text-center ">
+            <img
+              src="img/4.jpg"
+              class="img-fluid img-responsive banner_image img-rounded"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!---section 2: who we are section------>
+    <section id="about_us">
+      <div class="container text-center">
+          <h1 id="title" class="title">who we are</h1>
+            <p class="title_p text-center">
+            Architecture has to do with planning and designing form, space and
+            ambience to reflect aesthetic considerations.
+            </p>
+        <div class="row text-centre">
+          <div class="col-md-4 sc_about_item">
+            <img src="img/d1.jpg" class="circular_img" />
+            <h4>Architecture Concept</h4>
+            <p>
+              Omnis iste natus error sit voluptatem accusantium oloremque
+              laudantium, totam
+            </p>
+            <button type="button" class="button"
+                   data-toggle="modal" data-target="#more_info" >
+              read more
+            </button>
+          </div>
+          <div class="col-md-4 sc_about_item">
+            <img src="img/d2.jpg" class="circular_img" />
+            <h4>Project Design</h4>
+            <p>
+              Omnis iste natus error sit voluptatem accusantium oloremque
+              laudantium, totam
+            </p>
+            <button type="button" class="button"
+                   data-toggle="modal" data-target="#more_info" >
+              read more
+            </button>
+          </div>
+          <div class="col-md-4 sc_about_item">
+            <img src="img/d3.jpg" class="circular_img" />
+            <h4>Development</h4>
+            <p>
+              Omnis iste natus error sit voluptatem accusantium oloremque
+              laudantium, totam
+            </p>
+            <button type="button" class="button"
+                  data-toggle="modal" data-target="#more_info" >
+              read more
+            </button>
+          </div>
+        </div>
+      </div>
+</section>
+      
+<!-- Modal -->
+<div class="modal fade" id="more_info" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">iARCH Company Profile</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          <div class="model_text">
+            <h4>We are the "code" to your success</h4>
+            <p>
+              We at Banguluru identify ourselves as an offshore development company, Web Designing and Internet Marketing Company in India.
+            </p>
+              
+            <p>
+              We specialize in reducing costs, improving productivity, delivering quality, reliability, speed and agility which enable our customers to have sustainable differential advantage over their competition.
+            </p>
+              
+            <p>
+              But who are we really? We’re a group of engineers and business men and women who think and act as an extension to our customer’s product development teams. A team of people that aren’t afraid to get creative when it comes to finding a flexible business model or roll up our sleeves when it comes to debugging that important new product being readied for the production line.
+            </p>
+          </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+    <!--banner 2-->
+
+    <section id="banner">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-6 text-center ">
+            <img
+              src="img/5.jpg"
+              class="img-fluid img-responsive banner_image img-rounded"
+            />
+          </div>
+          <div class="col-md-6">
+            <div class="promo-title">
+              <h4>
+                Proline Agency Professionals of Architecture
+              </h4>
+              <p>
+                Architecture has to do with planning and designing form, space
+                and ambience to reflect functional, technical, social,
+                environmental, and aesthetic considerations.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!--section 4 what we do : services-->
+
+    <section class="services" id="services">
+      <div class="container">
+        <h1 id="title" class="title">What We Do</h1>
+        <p class="title_p text-center">
+          Architecture has to do with planning and designing form, space and
+          ambience to reflect aesthetic considerations.
+        </p>
+        <div class="row text-center">
+          <div class="col-md-4 sc_about_item">
+            <img
+              src="img/professional_opinion.png"
+              class="services_image"
+              width="200px;"
+            />
+            <h4>Professional Openion</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac tempus eros, non tempus massa. Vivamus ut nisl mauris.
+            </p>
+          </div>
+          <div class="col-md-4 sc_about_item">
+            <img src="img/planning.png" class="services_image" width="235px;" />
+            <h4>Precise Planning</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac tempus eros, non tempus massa. Vivamus ut nisl mauris.
+            </p>
+          </div>
+          <div class="col-md-4 sc_about_item">
+            <img
+              src="img/engineering.png"
+              class="services_image"
+              width="260px;"
+            />
+            <h4>Accurage Engineering</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac tempus eros, non tempus massa. Vivamus ut nisl mauris.
+            </p>
+          </div>
+        </div>
+      </div>
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-4 sc_about_item">
+          <img
+            src="img/design.png"
+            class="services_image"
+            width="200px;"
+          />
+          <h4>Project Design</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac tempus eros, non tempus massa. Vivamus ut nisl mauris.
+          </p>
+        </div>
+        <div class="col-md-4 sc_about_item">
+          <img src="img/ideas.png" class="services_image" width="235px;" />
+          <h4>Idea Implementation</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac tempus eros, non tempus massa. Vivamus ut nisl mauris.
+          </p>
+        </div>
+        <div class="col-md-4 sc_about_item">
+          <img
+            src="img/result.png"
+            class="services_image"
+            width="200px;"
+          />
+          <h4>Exact Result</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac tempus eros, non tempus massa. Vivamus ut nisl mauris.
+          </p>
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <!--Testimonial-->
+
+  <section id="testimonial">
+      <div class="container">
+          <h1 id="title" class="title">What Client say</h1>
+          <div class="row offset-1">
+              <div class="col-md-5 testimonial">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac tempus eros, non tempus massa. Vivamus ut nisl mauris.</p>
+                  <img src="img/cl_1.jpg" />
+                  <p class="user_detail"><b>Tim Savage</b><br>Cofounder of ABC</p>
+              </div>
+              <div class="col-md-5 testimonial">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac tempus eros, non tempus massa. Vivamus ut nisl mauris.</p>
+                  <img src="img/cl_2.jpg" />
+                  <p class="user_detail"><b>Marco Lima</b><br>Cofounder of XYZ</p>
+              </div>
+          </div>
+
+      </div>
+  </section>
+
+
+<!--footer-->
+<section class="footer" id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 footer-box footer_con">
+              <p><b>Contact Us</b></p>
+              <p><i class="fa fa-map-marker"></i>SeeoN World Trade,Mumbai</p>
+              <p><i class="fa fa-phone"></i>+91 7020901593</p>
+              <p><i class="fa fa-envelope-o"></i>trinity9297@gmail.com</p>
+            </div>
+
+            <div class=" col-md-6 social_icon">
+              <a href="#"><img src="img/sm_fb.png" /></a>
+              <a href="#"><img src="img/sm_insta.png" /></a>
+              <a href="#"><img src="img/sm_li.png" /></a>
+              <a href="#"><img src="img/sm_twi.png" /></a>
+            </div>
+        </div>
+    <div>
+        <hr>
+        <p class="copyright">Copyright by trinity.inc</p>
+    </div>
+</section>
+
+    <!--Script links-->
+    
+    <script>
+    $('#myModal').on('shown.bs.modal', function () {
+  $('#myInput').trigger('focus')
+})
+    
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/smooth-scroll.js"></script>
+    <script>
+	     var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+</html>

@@ -1,0 +1,449 @@
+* {
+  font-family: 'Titillium Web', sans-serif;
+}
+/*-----header----*/
+#nav_bar {
+    background-color: black;
+    position:sticky;
+    top: 0;
+    z-index:10;
+}
+.navbar {
+  padding:0px !important;
+}
+
+.navbar-nav li a {
+  text-align: center;
+  color: white !important;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 6px 10px;
+  margin-left: 20px;
+}
+
+.fa-bars {
+  color: #fff;
+}
+
+.navbar-light .navbar-brand {
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: justify;
+  letter-spacing: 2px;
+}
+
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #fff;
+}
+
+.navbar-light .navbar-brand:hover {
+  color: white;
+}
+
+.navbar-toggler-icon {
+  color: white !important;
+}
+
+.navbar-toggler {
+  outline: none !important;
+  padding: 10px 10px;
+  font-size: 18px;
+  line-height: 0.3;
+}
+
+/*-----slider----*/
+
+.carousel-item {
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.image-container {
+  position: relative;
+}
+.image-container .after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.carousel-caption {
+  bottom: 230px;
+  margin: 25px;
+  padding: 10px;
+  z-index: 1;
+}
+
+.carousel-caption h5 {
+  font-size: 85px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: auto;
+}
+
+.carousel-caption p {
+  width: 70%;
+  margin: auto;
+  font-size: 18px;
+  line-height: 1.9;
+}
+
+.button {
+  font-weight: bold;
+  font-size: 16px;
+  background-color: transparent;
+  border-color: #505050;
+  color: #505050;
+  border: 2px solid #505050;
+  border-radius: 24px;
+  padding: 0 15px;
+  height: 40px;
+  min-width: 90px;
+  margin: 0 15px 0px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.button:hover {
+  font-weight: bold;
+  background-color: #505050;
+  color: white;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/*-----section 2 ----*/
+#banner {
+  text-decoration: none;
+  padding: 30px 0px;
+  background-color:#faf8f5;
+}
+
+.banner_image {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.promo-title {
+  text-align: left;
+}
+
+.promo-title h4 {
+  font-size: 40px;
+  padding: 5px;
+  font-weight: 600;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+.promo-title p {
+  text-align: ;
+  font-size: 17px;
+  font-weight: 400;
+  word-spacing: normal;
+  max-width: 97%;
+}
+
+/*-----section3 : who we are sec----*/
+#about_us {
+  text-decoration: none;
+  padding: 50px 0px;
+}
+
+.circular_img {
+  border-radius: 50%;
+  width: 200px;
+}
+
+.model_text{
+   text-align:left;
+  font-size: 40px;
+  text-transform: uppercase; 
+}
+
+.model_text h4 {
+  font-weight: bold !important;
+}
+
+.model_text p {
+    float: left;
+  color: #484848;
+  font-size: 13px;
+}
+
+#title {
+  margin: 20px 0px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+.title_p{
+    width: 100%;
+}
+
+.title::before {
+  content: "";
+  background: #dfb07d;
+  height: 5px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 10px;
+  transform: translateY(64px);
+}
+.title::after {
+  content: "";
+  background: #dfb07d;
+  height: 10px;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  display: block;
+  border-radius: 10px;
+  transform: translateY(8px);
+}
+
+.sc_about_item {
+  align-content: center;
+  font-size: 40px;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+.sc_about_item h4 {
+  font-weight: bold !important;
+  padding-top: 20px;
+}
+.sc_about_item p {
+  color: #484848;
+  font-size: 13px;
+}
+
+/*-----section 4 : what we do : services----*/
+#services {
+  text-decoration: none;
+  padding-top: 70px;
+}
+
+/*-----section 4: testimonial----*/
+#testimonial {
+  padding: 60px 0px;
+  background-color: #faf8f5;
+}
+
+.testimonial {
+  border-left: 4px solid #dfb07d;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.testimonial img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+
+.user_detail {
+  display: inline-block;
+  font-size: 12px;
+}
+
+/*----footer---*/
+.footer {
+  background-color: black;
+  color: white;
+  padding: 15px;
+
+}
+
+
+.fa {
+  margin-right: 5px !important ;
+}
+
+hr {
+  background: white;
+}
+
+.social_icon{
+    margin-top: 46px;
+    
+}
+
+.social_icon img {
+    float: right;
+    width: 40px;
+    margin: 9px;
+    transition: 0.5s;
+}
+
+.social_icon a {
+  width: 40px;
+  transition: 0.5s;
+}
+
+.social_icon a:hover img {
+  transform: translateY(-10px);
+}
+
+.copyright {
+  margin-bottom: 0px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+/*-----media query for tablets in between 411px-1024px----*/
+
+@media only screen 
+and (max-width : 1024px)  {  
+    .carousel-item{
+        min-height:400px;
+	justify-content:center;
+	align-item:center;
+    }
+    
+    .d-none {
+    display: block!important;
+    }
+    
+    .carousel-caption {
+        bottom: 120px;
+    }
+    
+    .carousel-caption h5 {
+        font-size: 60px;
+    }
+
+    .carousel-caption p {
+        font-size:22px;
+        width: 90%;
+    }
+
+    .promo-title {
+        text-align: center;
+    }
+
+    .promo-title h4 {
+        font-size: 35px;
+        }
+
+    .promo-title p {
+        font-size: 18px;
+        text-align:center;
+        }
+    
+    .sc_about_item p{
+        text-align:center;
+        width:90%;     
+    }
+    
+    .title{
+        font-size: 29px;
+    }
+    
+    .title::before {
+        transform: translateY(50px);
+        }
+    .title::after {
+        transform: translateY(8px);
+    }
+
+    
+    .title_p{
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    .social_icon{
+        
+    }
+    
+    .footer_con{
+        text-align: center;
+    }
+
+}
+
+@media only screen 
+and (max-width:414px)  {
+    
+    .carousel-item{
+        min-height: 100px;
+    }
+    
+    .button{
+        display: none !important;
+    }
+    
+    .d-none {
+    display:block!important;
+    }
+    
+    .carousel-caption {
+        margin: 3px;
+        bottom: 90px;
+        z-index: 1;
+    }
+    
+    .carousel-caption h5 {
+        font-size: 24px;
+    }
+
+    .carousel-caption p {
+        display: none !important;
+    }
+
+    .promo-title h4 {
+      font-size: 22px;
+        }
+
+     .title{
+        font-size: 29px;
+    }
+
+    .promo-title p {
+        text-align:center;
+        }
+    
+    
+    .sc_about_item p{
+        width:80%;
+        margin-left: 40px; 
+    }
+    
+    .social_icon{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin: 20px;
+    }
+    
+    
+    .social_icon img{
+        width: 25px;
+    }
+    
+    .footer_con{
+        text-align: center;
+    }
+
+  }
+}
+
+
